@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Warna latar belakang */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Mengisi tinggi layar */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px; /* Lebar maksimum form */
+    padding: 40px; /* Padding untuk ruang */
+    background-color: #ffffff; /* Background putih untuk form */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 4px 20px rgba(231, 189, 159, 0.5); /* Bayangan lembut */
+}
+
+h2 {
+    color: #e7bd9f; /* Warna judul */
+    text-align: center; /* Rata tengah */
+    margin-bottom: 20px; /* Jarak bawah */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px; /* Padding untuk ruang */
+    margin: 10px 0; /* Jarak antara elemen */
+    border: 1px solid #ccc; /* Border abu-abu */
+    border-radius: 4px; /* Sudut membulat */
+    box-sizing: border-box; /* Memastikan padding dan border diperhitungkan dalam lebar */
+    transition: border-color 0.3s; /* Transisi halus untuk border */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #e7bd9f; /* Warna border saat fokus */
+    outline: none; /* Menghapus outline default */
+}
+
+.error-message {
+    color: red; /* Warna untuk pesan error */
+    text-align: center; /* Rata tengah */
+    margin: 10px 0; /* Jarak vertikal */
+    font-size: 0.9em; /* Ukuran font sedikit lebih kecil */
+}
+
+button {
+    background-color: #e7bd9f; /* Warna tombol */
+    color: white; /* Teks putih */
+    padding: 12px; /* Padding untuk tombol */
+    border: none; /* Menghapus border */
+    border-radius: 4px; /* Sudut membulat */
+    cursor: pointer; /* Pointer saat hover */
+    transition: background-color 0.3s; /* Transisi halus */
+    margin-top: 10px; /* Jarak atas untuk tombol */
+}
+
+button:hover {
+    background-color: #d6a78a; /* Warna saat hover */
+}
+
+.footer {
+    text-align: center; /* Rata tengah */
+    margin-top: 20px; /* Jarak atas */
+    font-size: 0.9em; /* Ukuran font lebih kecil */
+    color: #666; /* Warna abu-abu untuk footer */
+}
+
+.remember-me {
+    display: flex; /* Flexbox untuk label dan checkbox */
+    align-items: center; /* Vertikal center */
+    margin: 10px 0; /* Jarak vertikal */
+}
+
+.remember-me input {
+    margin-right: 5px; /* Jarak antara checkbox dan label */
+}
+
+a {
+    color: #6a5acd; /* Warna tautan */
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+.error-message {
+    color: red; /* Warna untuk pesan error */
+    text-align: center; /* Rata tengah */
+    margin: 10px 0; /* Jarak vertikal */
+    font-size: 0.9em; /* Ukuran font sedikit lebih kecil */
+}
